@@ -82,6 +82,18 @@ h1 {
 .muted {
   color: var(--muted);
 }
+.low {
+  color: var(--low);
+  text-align: right;
+}
+.med {
+  color: var(--med);
+  text-align: right;
+}
+.high {
+  color: var(--high);
+  text-align: right;
+}
 
 .form {
   display: grid;

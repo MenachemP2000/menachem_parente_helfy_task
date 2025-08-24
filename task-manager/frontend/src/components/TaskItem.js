@@ -31,6 +31,9 @@ export default function TaskItem({ task, onToggle, onDelete, onSave, onPause, on
             ) : (
                 <>
                     <h3>{task.title}</h3>
+                    {(task.priority == "low") && <p className="low">{task.priority}</p>}
+                    {(task.priority == "medium") && <p className="med">{task.priority}</p>}
+                    {(task.priority == "high") && <p className="high">{task.priority}</p>}
                     {(task.description) && <p className="muted">{task.description}</p>}
                     {(!task.description) && <p className="muted">{"no description"}</p>}
                 </>
