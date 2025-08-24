@@ -1,4 +1,7 @@
 # Task Manager App
+
+Simple in-memory app to manage tasks
+
 ## Backend Setup
 1. cd backend
 2. npm install
