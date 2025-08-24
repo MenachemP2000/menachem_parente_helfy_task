@@ -1,4 +1,7 @@
 # Task Manager App
+
+Simple in-memory app to manage tasks
+
 ## Backend Setup
 1. cd backend
 2. npm install
@@ -32,3 +35,4 @@ README & git & debugging: ~0.5h
 
 ## Screenshots
 ![alt text](<Screenshot 2025-08-18 184458.png>)
+![alt text](<Screenshot 2025-08-18 184516.png>)
